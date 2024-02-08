@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.footer{
+    background-color: black;
+    height: 90px;
+    color: white;
+    font-weight: 600;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.sign {  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 88px;
+    margin-top: 48px;
+
+}
+.icon :hover{
+    opacity: 75%;
+    cursor: pointer;
+
+}
+  
+    
+img{
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      object-fit: cover;
+      
+
+}
+.result{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 188px;
+    margin-top: 88px;
+
+}
+.points{
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 66px;
+    
+}
+.content{
+    display: grid;
+    place-items:center;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    margin-top: 55px;
+    
+}
+.content :hover{
+    opacity: 70%;
+
+}
+.play{
+    border-radius: 9px;
+    background-color: black;
+}
